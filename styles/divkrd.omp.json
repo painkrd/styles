@@ -98,7 +98,7 @@
             "style": "agnoster_full"
           },
           "style": "plain",
-          "template": "<p:white>\u2514</> {{ if and (ne .Path \"/\") (not (hasPrefix .Path \"\ueb06\")) }}<#93d0ff>/</>{{ end }}{{ .Path }}",
+          "template": "<p:white>\u2514</><#93d0ff>[</> {{.Path}} <#93d0ff>]</>",
           "type": "path"
         }
       ]
